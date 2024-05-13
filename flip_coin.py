@@ -3,7 +3,7 @@ from random import choice
 bet = int(input("Amount: $"))
 
 
-while 15 <= bet <= 300:
+while 0 <= bet <= 30:
     try:
         guess = input("H/T: ").capitalize().strip()
         bet -= 5
