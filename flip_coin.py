@@ -13,9 +13,9 @@ while 15 <= bet <= 300:
         if guess in coin:
             if guess == gamble:
                 bet += 10
-                print(f"Congratulations! You guessed {guess} and the coin landed on {coin}. Your balance is now ${bet}.")
+                print(f"Congratulations! You guessed {guess} and the coin landed on {gamble}. Your balance is now ${bet}.")
             else:
-                print(f"Sorry, you guessed {guess} but the coin landed on {coin}. Your balance is now ${bet}.")
+                print(f"Sorry, you guessed {guess} but the coin landed on {gamble}. Your balance is now ${bet}.")
     except ValueError:
         continue
 print(f"Withdraw ${bet}")
